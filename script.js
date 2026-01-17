@@ -29,4 +29,19 @@
       if(!nav.contains(e.target) && !btn.contains(e.target)) close();
     });
   }
+
+  // PDF fullscreen buttons
+  document.querySelectorAll('[data-pdf] [data-pdf-fullscreen]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const viewer = btn.closest('[data-pdf]');
+      if(!viewer) return;
+      const doc = document;
+      // toggle
+      if(doc.fullscreenElement){
+        doc.exitFullscreen?.();
+        return;
+      }
+      viewer.requestFullscreen?.();
+    });
+  });
 })();

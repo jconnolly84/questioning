@@ -82,3 +82,27 @@ body{
 
 .footer{padding:22px 0 34px; color:rgba(232,238,252,.55); font-size:13px; border-top:1px solid rgba(255,255,255,.08)}
 .smallnote{color:rgba(232,238,252,.55); font-size:12.5px; line-height:1.5}
+
+
+/* mobile nav */
+.nav-toggle{
+  display:none;
+  margin-left:auto;
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.12);
+  color:var(--text);
+  font-weight:900;
+  padding:10px 12px;
+  border-radius:12px;
+}
+.nav-toggle:hover{background:rgba(255,255,255,.10)}
+
+@media (max-width: 840px){
+  .top-inner{flex-wrap:wrap}
+  .nav{flex-basis:100%; justify-content:flex-start}
+  .nav-toggle{display:inline-flex}
+  .nav-links{overflow:visible; padding:0}
+  .nav-links{display:none; width:100%; flex-direction:column; align-items:flex-start; gap:6px; margin-top:10px}
+  .nav.open .nav-links{display:flex}
+  .nav a{width:100%; border-radius:12px; padding:10px 12px; background:rgba(255,255,255,.04)}
+}

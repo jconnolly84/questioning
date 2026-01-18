@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://jconnolly84.github.io/questioning/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://jconnolly84.github.io/questioning/think-pair-share.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jconnolly84.github.io/questioning/pose-pause-pounce.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jconnolly84.github.io/questioning/mini-whiteboards.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jconnolly84.github.io/questioning/hinge-questions.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jconnolly84.github.io/questioning/front-the-writing.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jconnolly84.github.io/questioning/cold-calling.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://jconnolly84.github.io/questioning/class-voting.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
